@@ -1,0 +1,27 @@
+http://cn-dev.dataone.org/knb/d1/ seems the most complete.
+---------------------------------------------------------------------------------------------------------------------------
+These tests doesn't yet supply a token as a parameter; I'd expect cn-dev to
+respond with "Invalid Request" but it returns a "Service Failure" instead for
+some things that take a token (but not for others?)
+
+
+
+http://gmn-dev.dyndns.org/
+---------------------------------------------------------------------------------------------------------------------------
+I seemed to have crashed this with multiple runs of my test(?) or, at the very
+least, it's just stopped responding
+
+
+
+http://dev.datadryad.org/mn/
+---------------------------------------------------------------------------------------------------------------------------
+Our dev instance of the MN REST API
+
+
+
+Overall:
+---------------------------------------------------------------------------------------------------------------------------
+These tests are a very simple start and really some of them may even be
+insufficient to really tell if a service is really operational.  I didn't build
+these out because they are unimplemented in Dryad (and Dryad reports
+that) so I didn't have as much control over really testing success/failure

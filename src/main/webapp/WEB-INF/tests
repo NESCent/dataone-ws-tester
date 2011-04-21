@@ -1,0 +1,17 @@
+# Currently tests run in the order in which they appear in this file
+
+org.dataone.wstester.tests.ObjectImplTest
+org.dataone.wstester.tests.ObjectPIDImplTest
+org.dataone.wstester.tests.MetaImplTest
+org.dataone.wstester.tests.IsAuthorizedTest
+org.dataone.wstester.tests.AccessRulesTest
+org.dataone.wstester.tests.LogTest
+org.dataone.wstester.tests.NodeTest
+org.dataone.wstester.tests.ErrorTest
+org.dataone.wstester.tests.MonitorPingTest
+org.dataone.wstester.tests.MonitorObjectTest
+org.dataone.wstester.tests.MonitorEventTest
+org.dataone.wstester.tests.MonitorStatusTest
+org.dataone.wstester.tests.ReplicateTest
+
+org.dataone.wstester.tests.SampleFailureTest

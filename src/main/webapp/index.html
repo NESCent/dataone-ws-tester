@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<title>DataONE Member Node Web Service Test</title>
+		<style type="text/css">
+			div { padding-left: 10px; padding-right: 10px; }
+			body { font-family: sans-serif; margin: 0px; }
+			div.padded { margin-top: 20px; }
+		</style>
+	</head>
+	<body>
+		<div style="background: #ccc; padding: 30px; font-weight: bold;">DataONE Member Node Web
+			Service Tests</div>
+		<div class="padded">This server runs some basic tests to check the correctness of a DataONE
+			Member Node Web Services interface. It does not perform a comprehensive check of the
+			service's functionality at this point, but is a just a first pass at some of the
+			basics.</div>
+		<form action="/test" method="get">
+			<div class="padded" style="font-weight: bold;">URL of DataONE Member Node Web Service: <input
+					title="URL of Web Service" size="100" name="url" type="text" /><input type="submit" alt="Submit"
+					value="Submit"/>
+			</div>
+		</form>
+		<div class="padded">Some sample DataONE Member Nodes you can test:</div>
+		<ul>
+			<li>http://cn-dev.dataone.org/knb/d1/</li>
+			<li>http://dev.datadryad.org/mn/</li>
+			<li>http://gmn-dev.dyndns.org/</li>
+		</ul>
+	</body>
+</html>

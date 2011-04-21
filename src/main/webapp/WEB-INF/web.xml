@@ -1,0 +1,13 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+ xmlns="http://java.sun.com/xml/ns/javaee" version="2.5" metadata-complete="true">
+ <display-name>DataONE Member Node Web Service Test</display-name>
+ <servlet>
+  <servlet-name>D1WSTestRunner</servlet-name>
+  <servlet-class>org.dataone.wstester.TestRunnerServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>D1WSTestRunner</servlet-name>
+  <url-pattern>/test</url-pattern>
+ </servlet-mapping>
+</web-app>

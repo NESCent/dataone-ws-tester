@@ -1,0 +1,37 @@
+DataONE Member Node Web Services Test (version 0.0.1)
+===============================================================================
+
+This is a first pass at creating some simple tests through which a DataONE Member Node's
+Web services interface can be checked for correctness.  It does not perform a comprehensive
+check of the service's functionality at this point, but is a just a first pass at some of the basics.
+
+To install the tests:
+
+1) Install Java JDK 1.6 (or greater)
+2) Install Maven 2.1.x (I haven't confirmed this works with Maven 3.x yet)
+3) Check out this project using Git
+4) In the project directory, type (via a terminal): mvn jetty:run
+
+To run the tests:
+
+1) In your browser, go to http://localhost:9696
+2) Enter the URL of the DataONE Member Node you want to test
+3) Hit the Submit button
+4) View the results of the test
+
+To finish:
+
+1) In the project directory, type Ctrl-C (via a terminal) to stop the Jetty Web server
+
+To add a new test:
+
+1) Create a class that implements org.dataone.wstest.MNTestInterface
+2) Add it to the Maven/Jetty classpath (if it's not in the project already)
+3) Add its name to the webapp/WEB-INF/tests text file (one class per line)
+
+MetaImplTest is an example of a test that is a little more built out
+MonitorPingTest is an example of a test that is more simple/basic
+
+===============================================================================
+
+Caveats: Read the QUESTIONS file in this same directory
