@@ -8,6 +8,6 @@
  </servlet>
  <servlet-mapping>
   <servlet-name>D1WSTestRunner</servlet-name>
-  <url-pattern>/test</url-pattern>
+  <url-pattern>/mntester_</url-pattern>
  </servlet-mapping>
 </web-app>
