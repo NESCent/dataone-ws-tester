@@ -1,6 +1,12 @@
 DataONE Member Node Web Services Test (version 0.0.1)
 ===============================================================================
 
+This project is outdated. It has been subsumed by the DataONE Member
+Node Tester. 
+
+As of 2013-2-14, the Member Node Tester is available at http://mncheck.test.dataone.org:8080/
+
+===============================================================================
 This is a first pass at creating some simple tests through which a DataONE Member Node's
 Web services interface can be checked for correctness.  It does not perform a comprehensive
 check of the service's functionality at this point, but is a just a first pass at some of the basics.
